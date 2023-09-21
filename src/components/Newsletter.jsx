@@ -2,67 +2,67 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className=" flex flex-col md:flex-row h-screen bg-black w-full ">
-      <div className="h-full w-1/2 py-10">
-        <h1 className="text-white  text-center md:text-5xl sm:text-3xl text-2xl font-bold py-2">
+    <div className=' flex flex-col md:flex-row h-full bg-black w-full '>
+      <div className='h-full w-full md:w-1/2 py-10'>
+        <h1 className='text-white m-3 text-center md:text-5xl sm:text-3xl text-2xl font-bold py-2'>
           Contact A Consultant
         </h1>
-        <div className="flex flex-col justify-center items-center">
+        <div className='flex flex-col justify-center items-center'>
           <input
-            className="m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black"
-            type="name"
-            placeholder="Enter Your Name"
+            className='m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black'
+            type='name'
+            placeholder='Enter Your Name'
           />
           <input
-            className="m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black"
-            type="email"
-            placeholder="Enter Email"
+            className='m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black'
+            type='email'
+            placeholder='Enter Email'
           />
           <textarea
-            className="m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black"
-            type="email"
-            placeholder="Any message for us"
+            className='m-4 p-3  flex w-2/3 md:w-1/2 rounded-md text-black'
+            type='email'
+            placeholder='Any message for us'
           ></textarea>
-          <button className="bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3">
+          <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>
             Notify Me
           </button>
         </div>
-        <p className="text-white text-center">
-          We care bout the protection of your data. Read our{" "}
-          <span className="text-[#00df9a]">Privacy Policy.</span>
+        <p className='text-white text-center'>
+          We care about the protection of your data. Read our{" "}
+          <span className='text-[#00df9a]'>Privacy Policy.</span>
         </p>
       </div>
-      <div className="h-full w-1/2 py-10">
-        <h1 className="text-white text-center md:text-5xl sm:text-3xl text-2xl font-bold py-2">
+      <div className='h-full w-full md:w-1/2 py-10'>
+        <h1 className='text-white text-center m-3 md:text-5xl sm:text-3xl text-2xl font-bold py-2'>
           Some Health Tips
         </h1>
-        <div className="flex flex-col justify-center items-center">
-          <ul className="text-white list-disc w-3/4">
-            <li className="text-white m-3">
+        <div className='flex flex-col justify-center items-center'>
+          <ul className='text-white list-disc w-3/4'>
+            <li className='text-white m-3'>
               Regular exercise increases blood flow to the brain and promotes
               the growth of new brain cells.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Engage in lifelong learning, whether it's through formal
               education, hobbies, or creative pursuits.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Consume a diet rich in fruits, vegetables, whole grains, lean
               proteins, and healthy fats like omega-3 fatty acids found in fish.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Aim for 7-9 hours of quality sleep per night to allow your brain
               to rest and consolidate memories.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Chronic stress can harm the brain. Practice relaxation techniques
               like meditation, yoga, or deep breathing.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Stimulate your mind with puzzles, games, reading, and learning new
               skills to keep your brain active.
             </li>
-            <li className="text-white m-3">
+            <li className='text-white m-3'>
               Stay updated on the latest research and information related to
               brain health.
             </li>
